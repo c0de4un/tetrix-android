@@ -8,3 +8,6 @@
 .externalNativeBuild
 .cxx
 local.properties
+/app/src/main/cpp/src/app/core
+/app/src/main/cpp/src/engine
+/app/src/main/cpp/src/android
