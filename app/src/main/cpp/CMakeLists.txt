@@ -13,12 +13,23 @@ cmake_minimum_required(VERSION 3.22.1)
 project("QTetriX")
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-# HEADERS
+# MODULES
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-# SOURCES
-# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# hexEngine.Core
+set( HEX_EXPORT_HEADERS "" )
+set( HEX_EXPORT_SOURCES "" )
+add_subdirectory( "src/engine/core" )
+
+# hexEngine.Android
+
+# hexEngine.Net
+
+# hexEngine.GL
+
+# App.Core
+
+# App.Android
 
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # BUILD
